@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header3 {
+    width: 100%;
+    height: 20vh;
+    background-color: #C1C6D3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #7a7f8d ;
+    img{
+        width: 20%;
+        height: 12vh;
+    }
+    h1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+.matchDesc {
+    width: 99.4%;
+    height: 20vh;
+    border: 1px solid black;
+    background-image: url('../img/BackdroundImage2.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    h1{
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 550;
+        color: aliceblue;
+    }
+}
+
+.favoritsArea {
+    border: 1px solid black;
+    width: 99.8%;
+    height: 50vh;
+}
+
+.favoritsPage {
+    margin: 50px;
+}
